@@ -1,0 +1,10 @@
+{
+  "json.schemas":[
+    {
+      "fileMatch": [
+        "assets/img/lottie/*.json"
+      ],
+      "url":"https://lottiefiles.github.io/lottie-docs/schema/lottie.schema.json"
+    }
+  ]
+}

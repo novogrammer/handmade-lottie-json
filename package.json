@@ -1,0 +1,25 @@
+{
+  "name": "handmade-lottie-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typescript":"tsc ./assets/ts/handmade_path.ts --outDir ./assets/js/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novogrammer/handmade-lottie-json.git"
+  },
+  "keywords": [],
+  "author": "Yusuke Kawamoto <novogrammer@gmail.com> (https://github.com/novogrammer/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novogrammer/handmade-lottie-json/issues"
+  },
+  "homepage": "https://github.com/novogrammer/handmade-lottie-json#readme",
+  "devDependencies": {
+    "json-schema-to-typescript": "^12.0.0",
+    "typescript": "^5.0.2"
+  }
+}

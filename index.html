@@ -9,13 +9,25 @@
     </div>
     <script src="./assets/lib/lottie-web-5.10.2/build/player/lottie.js"></script>
     <script>
+      // avoid error
+      window.exports={};
+    </script>
+    <script src="./assets/js/handmade_path.js"></script>
+    <script>
       lottie.loadAnimation({
         container:document.querySelector(".container"),
-        path:"./assets/img/lottie/Cat_silhouette.json",
+        // path:"./assets/img/lottie/Cat_silhouette.json",
+        // path:"./assets/img/lottie/ningen_logo_joined.json",
+        // path:"./assets/img/lottie/handmade_circle.json",
+        // path:"./assets/img/lottie/handmade_minimum.json",
+        // path:"./assets/img/lottie/handmade_group.json",
+        // path:"./assets/img/lottie/handmade_path.json",
+        animationData:window.animationDataHandmadePath,
         renderer:'svg',
         loop:true,
         autoplay:true,
       });
+
     </script>
   </body>
 </html>
