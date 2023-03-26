@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <style>
+      body{
+        margin:0;
+      }
+      .container{
+        width:100vmin;
+        height:100vmin;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    </div>
+    <script src="./assets/lib/lottie-web-5.10.2/build/player/lottie.js"></script>
+    <script>
+      lottie.loadAnimation({
+        container:document.querySelector(".container"),
+        path:"./assets/img/lottie/handmade_path_jsoneditor.json",
+        renderer:'svg',
+        loop:true,
+        autoplay:true,
+      });
+
+    </script>
+  </body>
+</html>
